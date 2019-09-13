@@ -107,41 +107,9 @@ section {
 
 /* section */
 
-.Collaboration {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-}
-
-.collab-div {
-  width: 29%;
-  margin-left: 40px;
-  font-size: 13px;
-}
-
-.collab-div>div {
-  margin-bottom: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* secition */
-
-
-.Community div a {
-  box-shadow: 1px 1px 3px #88888852;
-  margin-right: 20px;
-  padding: 15px;
-}
-
-
-
 figure {
   text-align: start;
 }
-
 
 /* section */
 
@@ -186,453 +154,53 @@ figcaption>p {
   text-decoration: none;
 }
 
-/* section Your-Business-Needs */
-
-.Your-Business-Needs {
-  text-align: center;
-}
-
-.Your-Business-Needs>p {
-  color: var(--grey);
-  /* width: 55%; */
-  margin: 15px auto;
-  font-size: 20px;
-  color: var(--grey);
-}
-
-.Verification {
-  display: flex;
-  flex-direction: row-reverse;
-  margin: 40px auto;
-  justify-content: center;
-  width: 80%;
-  align-items: center;
-}
-
-.Verification>div>div {
-  text-align: start;
-  width: 70%;
-  font-size: 13px;
-  margin: auto;
-  margin-bottom: 20px;
-}
-
-.Verification>div>div h5 {
-  color: var(--content-black);
-  font-weight: 600;
-}
-
-.Verification>div>div p {
-  font-size: 13px;
-  color: var(--grey);
-}
-
-.Hosted {
-  justify-content: center;
-  display: flex;
-  text-align: start;
-  width: 40%;
-  margin: auto;
-  border: 0.5px solid lightgray;
-  padding: 25px;
-}
-
-.Hosted img {
-  filter: grayscale(1);
-  width: 100%;
-  max-width: 50px;
-}
-
-.Hosted div:nth-child(2) {
-  width: 80%;
-  margin-left: 30px;
-}
-
-.Hosted div:nth-child(2) p:nth-child(1) {
-  color: var(--content-black);
-  font-weight: 600;
-  margin-bottom: 5px;
-}
-
-.Hosted div:nth-child(2) p:nth-child(2) {
-  color: var(--grey);
-  font-size: 13px;
-  margin-bottom: 15px;
-}
-
-.Hosted div:nth-child(2) a {
-  display: block;
-  color: dodgerblue;
-  font-size: 14px;
-}
-
-/* section integrations */
-
-
-/* community section */
-
-.Community a {
-  text-decoration: none;
-  width: 280px;
-}
-
-.Community>div:nth-child(1) {
-  width: 40%;
-  margin: auto;
-  text-align: center;
-  color: var(--content-black);
-}
-
-.Community>div:nth-child(2) {
-  display: flex;
-  justify-content: center;
-  margin: auto;
-  flex-wrap: wrap;
-}
-
-.Russel {
-  background-image: url('https://customer-stories-feed.github.com/customer_stories/freakboy3742/hero.jpg');
-}
-
-.Kris {
-  background-image: url('https://customer-stories-feed.github.com/customer_stories/kris-nova/hero.jpg');
-}
-
-.Kris {
-  background-image: url('https://customer-stories-feed.github.com/customer_stories/kris-nova/hero.jpg');
-}
-
-.Evan {
-  background-image: url("https://customer-stories-feed.github.com/customer_stories/yyx990803/hero.jpg");
-}
-
-.Jess {
-  background-image: url("https://customer-stories-feed.github.com/customer_stories/jessfraz/hero.jpg");
-}
-
-.Community figure img {
-  height: 200px;
-  width: 250px;
-  background-size: cover;
-  background-position: center;
-}
-
-.Community-name {
-  color: var(--content-black);
-  font-weight: 600;
-  font-size: 15px;
-}
-
-.Community figcaption>p:nth-child(2) {
-  color: var(--grey);
-  font-size: 11px;
-}
-
-.Community figcaption div p {
-  color: dodgerblue;
-  font-size: 14px;
-}
-
-.Community-name {
-  margin-bottom: 10px;
-}
-
-.Community figcaption div {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 16px 0px;
-  margin-top: 18px;
-  color: dodgerblue;
-  font-size: 14px;
-}
-
-.Community figcaption p:nth-child(2) {
-  margin-bottom: 10px;
-}
-
-.Community figcaption div p:nth-child(2) {
-  margin: 0;
-}
-
-.Community a:nth-child(2) figcaption div {
-  padding: 4px 0px;
-}
-
-/* 
-.Community div {
-  display: flex;
-  justify-content: center;
-}
-
-.Community div a {
-  text-decoration: none;
-}
-
-.Community div a figure {
-  text-align: start;
-}
-
-.Community div a figure img {
-  height: 200px;
-  width: 200px;
-  background-position: 50%;
-  background-size: cover;
-}
-
-.Community div a figure figcaption {
-  margin: 10px;
-}
-
-.Community div a figure figcaption>div {
-  border-bottom: 1px solid lightgray;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
-}
-
-.Community div a figure figcaption div p:nth-child(1) {
-  color: var(--content-black);
-  font-weight: 600;
-  font-size: 15px;
-}
-
-.Community div a figure figcaption div p:nth-child(2) {
-  color: var(--grey);
-  font-size: 12px;
-}
-.Community div a figure div figcaption>p {
-  color: dodgerblue;
-  font-size: 14px;
-} */
-
-
-
-/* section */
-
-.Infographics {
-  text-align: center;
-}
-
-.Sub-Detail {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 70%;
-  margin: 40px auto;
-}
-
-.Github-details {
-  width: 50%;
-  /* margin-left: 40px; */
-  font-size: 13px;
-  text-align: start;
-}
-
-.Github-details a:nth-child(1) span {
-  color: #a04100;
-}
-
-.Github-details a:nth-child(2) span {
-  color: #0366d6;
-}
-
-.Github-details a:nth-child(3) span {
-  color: #8642cd;
-}
-
-.rep-dev {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
-
-.Repositories {
-  background-color: #f66a0a;
-  display: inline-block;
-  padding: 75px 35px;
-  border-radius: 100%;
-  color: white;
-  font-weight: 600;
-  margin-right: 25px;
-}
-
-.Repositories p:nth-child(1) {
-  font-size: 30px;
-}
-
-.Repositories p:nth-child(2) {
-  font-size: 13px;
-}
-
-.Developers {
-  background-color: #0366d6;
-  display: inline-block;
-  color: white;
-  padding: 43px 17px;
-  border-radius: 100%;
-}
-
-.Developers p:nth-child(1) {
-  font-size: 30px;
-}
-
-.Developers p:nth-child(2) {
-  width: 50%;
-  margin: auto;
-  font-size: 13px;
-  font-weight: 600;
-}
-
-.biz-org {
-  display: inline-block;
-  border-radius: 100%;
-  background-color: #6f42c1;
-  padding: 22px 32px;
-  color: white;
-}
-
-.biz-org p:nth-child(1) {
-  font-size: 30px;
-}
-
-.biz-org p:nth-child(n+2) {
-  font-size: 13px;
-  font-weight: 600;
-}
-
-.Github-details img, .collab-div img {
-  width: 100%;
-  height: 13px;
-  filter: opacity(0.6);
-}
-
-.Github-details a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: start;
-  text-decoration: none;
-  color: var(--content-black);
-  margin-bottom: 50px;
-}
-
-.Get-started {
-  background-color: #24292e;
-  color: white;
-  padding: 40px;
-  text-align: center;
-}
-
-.Get-started p:nth-child(1) {
-  width: 70%;
-  margin: auto;
-  font-size: 32px;
-}
-
-.gs-p {
-  font-size: 12px;
-  color: #6a737d;
-}
-
-.gs-p span {
-  color: white;
-}
-
-.Get-started form {
-  display: flex;
-  text-align: start;
-  justify-content: center;
-  align-items: center;
-  margin: 80px auto;
-}
-
-.Get-started form div {
-  margin-right: 50px;
-}
-
-.Get-started form input {
-  /* margin-right: 30px; */
-  height: 44px;
-  margin-right: 50px;
-}
-
-.Get-started button {
-  color: white;
-  border: none;
-  border-radius: 4px;
-  background-color: #2ebc4f;
-  border-color: #2ebc4f;
-  padding: 0px 85px;
-  font-size: 13px;
-  height: 55px;
-}
-
-/* footer */
-
-footer>div:nth-child(1) {
-  display: flex;
-  width: 80%;
-  margin: auto;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 80px 0px;
-}
-
-footer>div>div {
-  margin-left: 50px;
-  display: flex;
-}
-
-footer img {
-  height: 30px;
-}
-
-footer>div:nth-child(1) ul {
-  display: flex;
-  flex-direction: column;
-  line-height: 32px;
-  padding: 0;
-  font-size: 13px;
-  color: var(--grey);
-}
-
-footer a {
-  color: var(--grey);
-}
-
-.Bottom-Last {
-  background-color: #fafbfc;
-  padding: 15px 0px;
-  font-size: 12px;
-}
-
-.Bottom-Last>div {
-  width: 90%;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.Bottom-Last ul {
-  display: flex;
-}
-
-.Bottom-Last ul p {
-  margin-right: 12px;
-}
-
-.Social img {
-  height: 25px;
-  filter: opacity(0.3);
-  margin-right: 10px;
+@media only screen and (max-width: 1010) {
+  .Gihub-main>div {
+    flex-direction: column;
+  }
+  .Github-about {
+    margin: 0;
+    width: 100%;
+  }
+  .Github-signin {
+    margin-top: 30px;
+    width: 100%;
+  }
+  .Github-Enterprise {
+    flex-direction: column;
+  }
+  .ghe-heading {
+    width: 80%;
+    text-align: center;
+    margin: 5em;
+  }
+  .Collaboration {
+    flex-direction: column;
+  }
+  .Sub-Detail {
+    flex-direction: column;
+
+  }
+}
+
+@media only screen and (max-width: 1270px) {
+  .Sub-Detail {
+    flex-direction: column;
+  }
+  .Github-details {
+    width: 100%;
+  }
+  .Github-details a{
+    display: flex;
+    margin-bottom: 30px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
   .Nav-link, .Search-input {
     display: none;
   }
+
   .account-info a {
     display: none;
   }

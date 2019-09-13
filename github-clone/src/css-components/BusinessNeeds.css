@@ -1,0 +1,77 @@
+.Your-Business-Needs {
+    text-align: center;
+}
+
+.Your-Business-Needs>p {
+    color: var(--grey);
+    /* width: 55%; */
+    margin: 15px auto;
+    font-size: 20px;
+    color: var(--grey);
+}
+
+.Verification {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 40px auto;
+    justify-content: center;
+    width: 80%;
+    align-items: center;
+}
+
+.Verification>div>div {
+    text-align: start;
+    width: 70%;
+    font-size: 13px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.Verification>div>div h5 {
+    color: var(--content-black);
+    font-weight: 600;
+}
+
+.Verification>div>div p {
+    font-size: 13px;
+    color: var(--grey);
+}
+
+.Hosted {
+    justify-content: center;
+    display: flex;
+    text-align: start;
+    width: 40%;
+    margin: auto;
+    border: 0.5px solid lightgray;
+    padding: 25px;
+}
+
+.Hosted img {
+    filter: grayscale(1);
+    width: 100%;
+    max-width: 50px;
+}
+
+.Hosted div:nth-child(2) {
+    width: 80%;
+    margin-left: 30px;
+}
+
+.Hosted div:nth-child(2) p:nth-child(1) {
+    color: var(--content-black);
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.Hosted div:nth-child(2) p:nth-child(2) {
+    color: var(--grey);
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.Hosted div:nth-child(2) a {
+    display: block;
+    color: dodgerblue;
+    font-size: 14px;
+}

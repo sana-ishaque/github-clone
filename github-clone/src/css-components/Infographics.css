@@ -96,8 +96,7 @@
     filter: opacity(0.6);
 }
 
-.Github-details a {
-    display: flex;
+.Github-details  {
     justify-content: center;
     align-items: center;
     text-align: start;
@@ -105,3 +104,9 @@
     color: var(--content-black);
     margin-bottom: 50px;
 }
+.Github-details a{
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-content: center;
+  }

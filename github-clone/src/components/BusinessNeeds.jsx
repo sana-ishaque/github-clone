@@ -2,6 +2,7 @@ import React from 'react';
 import cloud from '../images/cloud.svg';
 import varified from '../images/img-03.PNG';
 import Button from 'react-bootstrap/Button';
+import '../css-components/BusinessNeeds.css';
 
 
 function BusinessNeeds() {

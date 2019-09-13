@@ -13,7 +13,7 @@ import Community from './components/Community';
 import Infographics from './components/Infographics';
 import GetStarted from './components/GetStarted';
 import Footer from './components/Footer';
-
+import BusinessNeeds from './components/BusinessNeeds';
 
 
 function App() {
@@ -27,6 +27,7 @@ function App() {
       <GitHubTeams />
       <Collaboration />
       <GitHubUses />
+      <BusinessNeeds/>
       <Integrations />
       <Community />
       <Infographics />
