@@ -19,10 +19,6 @@ p {
   margin: 0;
 }
 
-
-
-
-
 /* main started */
 
 section {
@@ -41,8 +37,6 @@ section {
   color: var(--grey);
 }
 
-
-
 .getstarted-btn {
   margin-top: 20px;
   font-size: 12px;
@@ -51,8 +45,6 @@ section {
   padding: 15px 18px;
   margin-bottom: 0px;
 }
-
-
 
 .Gihub-main {
   display: flex;
@@ -94,79 +86,9 @@ section {
   color: #aaadaf;
 }
 
-
-
-.Github-actions {
-  width: 80%;
-  margin: auto;
-}
-
-.Github-actions img {
-  width: 100%;
-}
-
 /* section */
 
-.Business-and-organization {
-  width: 74%;
-  text-align: center;
-  margin: 50px auto 100px auto;
-}
-
-.Business-and-organization p {
-  font-size: 22px;
-  color: grey;
-  margin-bottom: 20px;
-}
-
-ul {
-  line-height: 55px;
-  padding: 0;
-}
-
-li {
-  display: inline;
-  margin-right: 60px;
-}
-
-.org-logo {
-  width: auto;
-  height: 25px;
-  margin: 10px;
-  filter: grayscale()
-}
-
 /* section github teams */
-
-.Github-teams {
-  text-align: center;
-}
-
-.Github-teams code, .Your-Business-Needs code, .Community code {
-  color: var(--grey);
-  font-size: 16px;
-}
-
-.git-btn {
-  padding: 20px 25px;
-  margin-top: 30px;
-  margin-bottom: 40px;
-}
-
-.Github-teams h1, .Your-Business-Needs h1, .Integrations h1, .Community h1 {
-  font-size: 45px;
-  font-weight: 600;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  color: var(--content-black);
-}
-
-.Github-teams p {
-  /* width: 50%; */
-  margin: 15px auto;
-  font-size: 20px;
-  color: var(--grey);
-}
 
 .btn-outline-primary {
   /* padding: 20px 25px; */
@@ -207,41 +129,19 @@ li {
 
 /* secition */
 
-.Leading-co-git-ent {
-  text-align: center;
-  margin: 40px auto;
-}
 
-.Leading-co-git-ent>h4 {
-  color: var(--grey);
-  font-size: 20px;
-  margin-bottom: 20px;
-}
-
-.GitEntImages {
-  display: flex;
-  justify-content: center;
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 100%;
-}
-
-.GitEntImages a, .Community div a {
+.Community div a {
   box-shadow: 1px 1px 3px #88888852;
   margin-right: 20px;
   padding: 15px;
 }
 
+
+
 figure {
   text-align: start;
 }
 
-.Gitenterprise-img {
-  height: 200px;
-  width: 240px;
-  background-position: 50%;
-  background-size: cover;
-}
 
 /* section */
 
@@ -292,7 +192,7 @@ figcaption>p {
   text-align: center;
 }
 
-.Your-Business-Needs>p, .Integrations p {
+.Your-Business-Needs>p {
   color: var(--grey);
   /* width: 55%; */
   margin: 15px auto;
@@ -368,63 +268,6 @@ figcaption>p {
 
 /* section integrations */
 
-.Integrations {
-  text-align: center;
-  margin: 8em;
-}
-
-.Integration-icons {
-  display: flex;
-  justify-content: center;
-}
-
-.Integrations code {
-  color: var(--grey);
-}
-
-.Ic {
-  height: 90px;
-  width: 90px;
-  margin-right: 30px;
-  padding: 18px;
-  border-radius: 100%;
-}
-
-.Ic img {
-  width: 100%;
-}
-
-.Slack {
-  background-color: #4A154B;
-}
-
-.Zenhub {
-  background-color: #364e98;
-}
-
-.Trevis {
-  background-color: #eff9f9;
-}
-
-.Atom {
-  background-color: #5fb57d;
-}
-
-.Circle {
-  background-color: #022531;
-}
-
-.Google {
-  background-color: #f2f2f2;
-}
-
-.Climate {
-  background-color: #303030;
-}
-
-.Integration-icons div:nth-child(even) {
-  margin-top: 40px;
-}
 
 /* community section */
 
@@ -562,21 +405,7 @@ figcaption>p {
   font-size: 14px;
 } */
 
-.mgm-resort {
-  background-image: url(https://customer-stories-feed.github.com/customer_stories/mgm-resorts/hero.jpg);
-}
 
-.Nationwide {
-  background-image: url(https://customer-stories-feed.github.com/customer_stories/nationwide/nw_hero.jpg);
-}
-
-.Sap {
-  background-image: url(https://customer-stories-feed.github.com/customer_stories/sap/sap6.jpg);
-}
-
-.Spotify {
-  background-image: url(https://customer-stories-feed.github.com/customer_stories/spotify/spotifyhero.jpg);
-}
 
 /* section */
 
@@ -822,12 +651,6 @@ footer a {
   }
   .ghe-options {
     margin-top: 25px;
-  }
-  .Collaboration {
-    flex-direction: column;
-  }
-  .collab-div {
-    width: 80%;
   }
   .Verification img {
     height: 165px;

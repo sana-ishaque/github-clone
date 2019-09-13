@@ -1,0 +1,28 @@
+.org-logo {
+    width: auto;
+    height: 25px;
+    margin: 10px;
+    filter: grayscale()
+}
+
+.Business-and-organization {
+    width: 74%;
+    text-align: center;
+    margin: 50px auto 100px auto;
+}
+
+.Business-and-organization p {
+    font-size: 22px;
+    color: grey;
+    margin-bottom: 20px;
+}
+
+ul {
+    line-height: 55px;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 60px;
+}

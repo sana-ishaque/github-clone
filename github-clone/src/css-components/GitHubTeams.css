@@ -1,0 +1,29 @@
+.Github-teams {
+    text-align: center;
+}
+
+.Github-teams code, .Your-Business-Needs code, .Community code {
+    color: var(--grey);
+    font-size: 16px;
+}
+
+.git-btn {
+    padding: 20px 25px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.Github-teams h1, .Your-Business-Needs h1, .Integrations h1, .Community h1 {
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: var(--content-black);
+}
+
+.Github-teams p {
+    /* width: 50%; */
+    margin: 15px auto;
+    font-size: 20px;
+    color: var(--grey);
+}

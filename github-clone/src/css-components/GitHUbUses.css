@@ -1,0 +1,51 @@
+.Leading-co-git-ent {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.Leading-co-git-ent>h4 {
+    color: var(--grey);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.GitEntImages a{
+    box-shadow: 1px 1px 3px #88888852;
+    margin-right: 20px;
+    padding: 15px;
+}
+
+.GitEntImages a {
+    text-decoration: none;
+}
+
+.Gitenterprise-img {
+    height: 200px;
+    width: 240px;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.GitEntImages {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.mgm-resort {
+    background-image: url(https://customer-stories-feed.github.com/customer_stories/mgm-resorts/hero.jpg);
+}
+
+.Nationwide {
+    background-image: url(https://customer-stories-feed.github.com/customer_stories/nationwide/nw_hero.jpg);
+}
+
+.Sap {
+    background-image: url(https://customer-stories-feed.github.com/customer_stories/sap/sap6.jpg);
+}
+
+.Spotify {
+    background-image: url(https://customer-stories-feed.github.com/customer_stories/spotify/spotifyhero.jpg);
+}

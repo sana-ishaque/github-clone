@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css-components/Community.css';
 
 function Community() {
     return (

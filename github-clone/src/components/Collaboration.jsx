@@ -1,7 +1,7 @@
 import React from 'react';
 import illustration from '../images/img-02.PNG';
 import playbtn from '../images/play-button.svg';
-
+import '../css-components/Collaboration.css';
 
 function Collaboration() {
     return (

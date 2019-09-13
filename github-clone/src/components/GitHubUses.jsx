@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css-components/GitHUbUses.css';
 function GitHubUses() {
     return (
         <section className="Leading-co-git-ent">

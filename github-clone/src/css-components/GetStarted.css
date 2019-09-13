@@ -1,0 +1,50 @@
+.Get-started {
+    background-color: #24292e;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.Get-started p:nth-child(1) {
+    width: 70%;
+    margin: auto;
+    font-size: 32px;
+}
+
+.gs-p {
+    font-size: 12px;
+    color: #6a737d;
+}
+
+.gs-p span {
+    color: white;
+}
+
+.Get-started form {
+    display: flex;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto;
+}
+
+.Get-started form div {
+    margin-right: 50px;
+}
+
+.Get-started form input {
+    /* margin-right: 30px; */
+    height: 44px;
+    margin-right: 50px;
+}
+
+.Get-started button {
+    color: white;
+    border: none;
+    border-radius: 4px;
+    background-color: #2ebc4f;
+    border-color: #2ebc4f;
+    padding: 0px 85px;
+    font-size: 13px;
+    height: 55px;
+}

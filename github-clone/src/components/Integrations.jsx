@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
+import '../css-components/Integrations.css';
 
 function Integrations() {
     return (

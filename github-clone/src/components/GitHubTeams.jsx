@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
-
+import '../css-components/GitHubTeams.css';
 function GitHubTeams() {
     return (
         <section className="Github-teams">

@@ -11,7 +11,7 @@ import facebook from '../images/corporate-icons/facebook-logo.png';
 import node from '../images/corporate-icons/node-logo.png';
 import nasa from '../images/corporate-icons/nasa-logo.png';
 import walmart from '../images/corporate-icons/walmart-logo.png';
-
+import '../css-components/GitHubOrg.css'
 
 
 function GitHubOrg() {

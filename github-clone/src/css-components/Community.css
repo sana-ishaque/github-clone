@@ -1,0 +1,87 @@
+.Community a {
+    text-decoration: none;
+    width: 280px;
+}
+
+.Community>div:nth-child(1) {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    color: var(--content-black);
+}
+
+.Community>div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.Russel {
+    background-image: url('https://customer-stories-feed.github.com/customer_stories/freakboy3742/hero.jpg');
+}
+
+.Kris {
+    background-image: url('https://customer-stories-feed.github.com/customer_stories/kris-nova/hero.jpg');
+}
+
+.Kris {
+    background-image: url('https://customer-stories-feed.github.com/customer_stories/kris-nova/hero.jpg');
+}
+
+.Evan {
+    background-image: url("https://customer-stories-feed.github.com/customer_stories/yyx990803/hero.jpg");
+}
+
+.Jess {
+    background-image: url("https://customer-stories-feed.github.com/customer_stories/jessfraz/hero.jpg");
+}
+
+.Community figure img {
+    height: 200px;
+    width: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
+.Community-name {
+    color: var(--content-black);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.Community figcaption>p:nth-child(2) {
+    color: var(--grey);
+    font-size: 11px;
+}
+
+.Community figcaption div p {
+    color: dodgerblue;
+    font-size: 14px;
+}
+
+.Community-name {
+    margin-bottom: 10px;
+}
+
+.Community figcaption div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0px;
+    margin-top: 18px;
+    color: dodgerblue;
+    font-size: 14px;
+}
+
+.Community figcaption p:nth-child(2) {
+    margin-bottom: 10px;
+}
+
+.Community figcaption div p:nth-child(2) {
+    margin: 0;
+}
+
+.Community a:nth-child(2) figcaption div {
+    padding: 4px 0px;
+}
