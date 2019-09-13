@@ -5,3 +5,23 @@
 .collab-div {
     width: 80%;
 }
+
+.Collaboration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.collab-div {
+    width: 29%;
+    margin-left: 40px;
+    font-size: 13px;
+}
+
+.collab-div>div {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
