@@ -1,0 +1,1041 @@
+:root {
+  --header-bg-color: #24292e;
+  --header-color: #fff;
+  --nav-hover: #ffffffbf;
+  --white: white;
+  --content-black: #24292e;
+  --grey: #586069;
+}
+
+html, body {
+  height: 100%;
+  min-height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+  /* text-align: center; */
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.App-header {
+  background-color: var(--header-bg-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--header-color);
+  height: 70px;
+  padding: 10px 0px;
+  font-size: 15px;
+}
+
+.Nav-bar {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.Nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--header-color);
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.Nav-link img {
+  height: 12px;
+  width: 100%;
+  max-width: 12px;
+  margin-left: 5px;
+  filter: grayscale(1);
+}
+
+.Nav-link:hover, .ai:hover {
+  color: var(--nav-hover);
+}
+
+.github-logo {
+  height: 31px;
+  margin-right: 20px;
+}
+
+.Search-input {
+  background-color: #3f4448;
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  width: 180px;
+}
+
+.ai {
+  margin-left: 20px;
+}
+
+.account-info {
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Github-signin {
+  background-color: #fafbfc;
+  border-radius: 6px;
+  width: 50%;
+  padding: 30px;
+}
+
+.Sign-up {
+  background-color: transparent;
+  border: 1px solid var(--header-color);
+  padding: 7px 10px;
+  color: var(--header-color);
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+form label, input {
+  display: block;
+}
+
+.form {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: .375rem .75rem;
+}
+
+form p {
+  font-size: 11px;
+}
+
+form span:nth-child(1) {
+  color: green;
+}
+
+label {
+  margin-bottom: 2px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.signup-btn {
+  width: 100%;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  background-color: #2ebc4f;
+  border-color: #2ebc4f;
+  padding: 20px 32px;
+  margin: 25px 0px;
+}
+
+/* main started */
+
+section {
+  padding-top: 80px;
+  scroll-padding-bottom: 80px;
+}
+
+.Section-detail {
+  width: 50%;
+  margin: auto;
+}
+
+.Section-detail p {
+  margin: 15px auto;
+  font-size: 20px;
+  color: var(--grey);
+}
+
+.ghe-getstarted p {
+  font-size: 14px;
+}
+
+.ghe-getstarted {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.getstarted-btn {
+  margin-top: 20px;
+  font-size: 12px;
+  padding: 15px 18px;
+  display: block;
+  padding: 15px 18px;
+  margin-bottom: 0px;
+}
+
+.ghe-heading {
+  width: 25%;
+  text-align: start;
+  margin-right: 5em;
+}
+
+.ghe-options {
+  display: flex;
+}
+
+.ghe-getstarted img {
+  width: 100%;
+  max-width: 60px;
+}
+
+.Gihub-main {
+  display: flex;
+  background-image: url(images/simple-codelines.svg);
+  background-color: #2b3137;
+  height: auto;
+}
+
+.Gihub-main>div {
+  max-width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 50px;
+}
+
+.Github-about {
+  color: var(--header-color);
+  width: 60%;
+  margin-right: 50px;
+}
+
+.Github-about h1 {
+  font-size: 62px;
+  margin: 0;
+  font-weight: 600;
+  line-height: 1em;
+  color: var(--white);
+  margin-bottom: 15px;
+}
+
+.Github-about a {
+  color: var(--white);
+}
+
+.Github-about p {
+  font-size: 20px;
+  color: #aaadaf;
+}
+
+.Github-Enterprise {
+  display: flex;
+  width: 90%;
+  margin: 80px auto;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 1px 1px 14px #80808045;
+  padding: 60px 0px;
+}
+
+.Github-Enterprise h2 {
+  font-weight: 600;
+}
+
+.Github-Enterprise p {
+  color: #586069;
+}
+
+.Github-actions {
+  width: 80%;
+  margin: auto;
+}
+
+.Github-actions img {
+  width: 100%;
+}
+
+/* section */
+
+.Business-and-organization {
+  width: 74%;
+  text-align: center;
+  margin: 50px auto 100px auto;
+}
+
+.Business-and-organization p {
+  font-size: 22px;
+  color: grey;
+  margin-bottom: 20px;
+}
+
+ul {
+  line-height: 55px;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin-right: 60px;
+}
+
+.org-logo {
+  width: auto;
+  height: 25px;
+  margin: 10px;
+  filter: grayscale()
+}
+
+/* section github teams */
+
+.Github-teams {
+  text-align: center;
+}
+
+.Github-teams code, .Your-Business-Needs code, .Community code {
+  color: var(--grey);
+  font-size: 16px;
+}
+
+.git-btn {
+  padding: 20px 25px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.Github-teams h1, .Your-Business-Needs h1, .Integrations h1, .Community h1 {
+  font-size: 45px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: var(--content-black);
+}
+
+.Github-teams p {
+  /* width: 50%; */
+  margin: 15px auto;
+  font-size: 20px;
+  color: var(--grey);
+}
+
+.btn-outline-primary {
+  /* padding: 20px 25px; */
+  font-weight: 600;
+  /* margin-top: 30px; */
+  /* margin-bottom: 40px; */
+  border: 0.5px solid rgba(16, 116, 231, .5);
+  color: #1074e7;
+}
+
+.btn-outline-primary:hover {
+  color: #0366d6;
+  background-color: #ffffff00;
+  border-color: #1074e7;
+}
+
+/* section */
+
+.Collaboration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.collab-div {
+  width: 29%;
+  margin-left: 40px;
+  font-size: 13px;
+}
+
+.collab-div>div {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* secition */
+
+.Leading-co-git-ent {
+  text-align: center;
+  margin: 40px auto;
+}
+
+.Leading-co-git-ent>h4 {
+  color: var(--grey);
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.GitEntImages {
+  display: flex;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.GitEntImages a, .Community div a {
+  box-shadow: 1px 1px 3px #88888852;
+  margin-right: 20px;
+  padding: 15px;
+}
+
+figure {
+  text-align: start;
+}
+
+.Gitenterprise-img {
+  height: 200px;
+  width: 240px;
+  background-position: 50%;
+  background-size: cover;
+}
+
+/* section */
+
+.Leading-co-git-ent {
+  color: var(--grey);
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+
+figcaption {
+  margin: 10px;
+}
+
+figcaption>div:nth-child(1) {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+figcaption div p:nth-child(1) {
+  color: var(--content-black);
+  font-weight: 600;
+  font-size: 15px;
+}
+
+figcaption div p:nth-child(2) {
+  color: var(--grey);
+  font-size: 12px;
+}
+
+figcaption>p {
+  color: dodgerblue;
+  font-size: 14px;
+}
+
+.Leading-co-git-ent>p {
+  margin-bottom: 20px;
+}
+
+.GitEntImages a {
+  text-decoration: none;
+}
+
+/* section Your-Business-Needs */
+
+.Your-Business-Needs {
+  text-align: center;
+}
+
+.Your-Business-Needs>p, .Integrations p {
+  color: var(--grey);
+  /* width: 55%; */
+  margin: 15px auto;
+  font-size: 20px;
+  color: var(--grey);
+}
+
+.Verification {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 40px auto;
+  justify-content: center;
+  width: 80%;
+  align-items: center;
+}
+
+.Verification>div>div {
+  text-align: start;
+  width: 70%;
+  font-size: 13px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.Verification>div>div h5 {
+  color: var(--content-black);
+  font-weight: 600;
+}
+
+.Verification>div>div p {
+  font-size: 13px;
+  color: var(--grey);
+}
+
+.Hosted {
+  justify-content: center;
+  display: flex;
+  text-align: start;
+  width: 40%;
+  margin: auto;
+  border: 0.5px solid lightgray;
+  padding: 25px;
+}
+
+.Hosted img {
+  filter: grayscale(1);
+  width: 100%;
+  max-width: 50px;
+}
+
+.Hosted div:nth-child(2) {
+  width: 80%;
+  margin-left: 30px;
+}
+
+.Hosted div:nth-child(2) p:nth-child(1) {
+  color: var(--content-black);
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.Hosted div:nth-child(2) p:nth-child(2) {
+  color: var(--grey);
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+.Hosted div:nth-child(2) a {
+  display: block;
+  color: dodgerblue;
+  font-size: 14px;
+}
+
+/* section integrations */
+
+.Integrations {
+  text-align: center;
+  margin: 8em;
+}
+
+.Integration-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.Integrations code {
+  color: var(--grey);
+}
+
+.Ic {
+  height: 90px;
+  width: 90px;
+  margin-right: 30px;
+  padding: 18px;
+  border-radius: 100%;
+}
+
+.Ic img {
+  width: 100%;
+}
+
+.Slack {
+  background-color: #4A154B;
+}
+
+.Zenhub {
+  background-color: #364e98;
+}
+
+.Trevis {
+  background-color: #eff9f9;
+}
+
+.Atom {
+  background-color: #5fb57d;
+}
+
+.Circle {
+  background-color: #022531;
+}
+
+.Google {
+  background-color: #f2f2f2;
+}
+
+.Climate {
+  background-color: #303030;
+}
+
+.Integration-icons div:nth-child(even) {
+  margin-top: 40px;
+}
+
+/* community section */
+
+.Community a {
+  text-decoration: none;
+  width: 280px;
+}
+
+.Community>div:nth-child(1) {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  color: var(--content-black);
+}
+
+.Community>div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.Russel {
+  background-image: url('https://customer-stories-feed.github.com/customer_stories/freakboy3742/hero.jpg');
+}
+
+.Kris {
+  background-image: url('https://customer-stories-feed.github.com/customer_stories/kris-nova/hero.jpg');
+}
+
+.Kris {
+  background-image: url('https://customer-stories-feed.github.com/customer_stories/kris-nova/hero.jpg');
+}
+
+.Evan {
+  background-image: url("https://customer-stories-feed.github.com/customer_stories/yyx990803/hero.jpg");
+}
+
+.Jess {
+  background-image: url("https://customer-stories-feed.github.com/customer_stories/jessfraz/hero.jpg");
+}
+
+.Community figure img {
+  height: 200px;
+  width: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+.Community-name {
+  color: var(--content-black);
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.Community figcaption>p:nth-child(2) {
+  color: var(--grey);
+  font-size: 11px;
+}
+
+.Community figcaption div p {
+  color: dodgerblue;
+  font-size: 14px;
+}
+
+.Community-name {
+  margin-bottom: 10px;
+}
+
+.Community figcaption div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0px;
+  margin-top: 18px;
+  color: dodgerblue;
+  font-size: 14px;
+}
+
+.Community figcaption p:nth-child(2) {
+  margin-bottom: 10px;
+}
+
+.Community figcaption div p:nth-child(2) {
+  margin: 0;
+}
+
+.Community a:nth-child(2) figcaption div {
+  padding: 4px 0px;
+}
+
+/* 
+.Community div {
+  display: flex;
+  justify-content: center;
+}
+
+.Community div a {
+  text-decoration: none;
+}
+
+.Community div a figure {
+  text-align: start;
+}
+
+.Community div a figure img {
+  height: 200px;
+  width: 200px;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.Community div a figure figcaption {
+  margin: 10px;
+}
+
+.Community div a figure figcaption>div {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.Community div a figure figcaption div p:nth-child(1) {
+  color: var(--content-black);
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.Community div a figure figcaption div p:nth-child(2) {
+  color: var(--grey);
+  font-size: 12px;
+}
+.Community div a figure div figcaption>p {
+  color: dodgerblue;
+  font-size: 14px;
+} */
+
+.mgm-resort {
+  background-image: url(https://customer-stories-feed.github.com/customer_stories/mgm-resorts/hero.jpg);
+}
+
+.Nationwide {
+  background-image: url(https://customer-stories-feed.github.com/customer_stories/nationwide/nw_hero.jpg);
+}
+
+.Sap {
+  background-image: url(https://customer-stories-feed.github.com/customer_stories/sap/sap6.jpg);
+}
+
+.Spotify {
+  background-image: url(https://customer-stories-feed.github.com/customer_stories/spotify/spotifyhero.jpg);
+}
+
+/* section */
+
+.Infographics {
+  text-align: center;
+}
+
+.Sub-Detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: 40px auto;
+}
+
+.Github-details {
+  width: 50%;
+  /* margin-left: 40px; */
+  font-size: 13px;
+  text-align: start;
+}
+
+.Github-details a:nth-child(1) span {
+  color: #a04100;
+}
+
+.Github-details a:nth-child(2) span {
+  color: #0366d6;
+}
+
+.Github-details a:nth-child(3) span {
+  color: #8642cd;
+}
+
+.rep-dev {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.Repositories {
+  background-color: #f66a0a;
+  display: inline-block;
+  padding: 75px 35px;
+  border-radius: 100%;
+  color: white;
+  font-weight: 600;
+  margin-right: 25px;
+}
+
+.Repositories p:nth-child(1) {
+  font-size: 30px;
+}
+
+.Repositories p:nth-child(2) {
+  font-size: 13px;
+}
+
+.Developers {
+  background-color: #0366d6;
+  display: inline-block;
+  color: white;
+  padding: 43px 17px;
+  border-radius: 100%;
+}
+
+.Developers p:nth-child(1) {
+  font-size: 30px;
+}
+
+.Developers p:nth-child(2) {
+  width: 50%;
+  margin: auto;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.biz-org {
+  display: inline-block;
+  border-radius: 100%;
+  background-color: #6f42c1;
+  padding: 22px 32px;
+  color: white;
+}
+
+.biz-org p:nth-child(1) {
+  font-size: 30px;
+}
+
+.biz-org p:nth-child(n+2) {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.Github-details img, .collab-div img {
+  width: 100%;
+  height: 13px;
+  filter: opacity(0.6);
+}
+
+.Github-details a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  text-decoration: none;
+  color: var(--content-black);
+  margin-bottom: 50px;
+}
+
+.Get-started {
+  background-color: #24292e;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+.Get-started p:nth-child(1) {
+  width: 70%;
+  margin: auto;
+  font-size: 32px;
+}
+
+.gs-p {
+  font-size: 12px;
+  color: #6a737d;
+}
+
+.gs-p span {
+  color: white;
+}
+
+.Get-started form {
+  display: flex;
+  text-align: start;
+  justify-content: center;
+  align-items: center;
+  margin: 80px auto;
+}
+
+.Get-started form div {
+  margin-right: 50px;
+}
+
+.Get-started form input {
+  /* margin-right: 30px; */
+  height: 44px;
+  margin-right: 50px;
+}
+
+.Get-started button {
+  color: white;
+  border: none;
+  border-radius: 4px;
+  background-color: #2ebc4f;
+  border-color: #2ebc4f;
+  padding: 0px 85px;
+  font-size: 13px;
+  height: 55px;
+}
+
+/* footer */
+
+footer>div:nth-child(1) {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 80px 0px;
+}
+
+footer>div>div {
+  margin-left: 50px;
+  display: flex;
+}
+
+footer img {
+  height: 30px;
+}
+
+footer>div:nth-child(1) ul {
+  display: flex;
+  flex-direction: column;
+  line-height: 32px;
+  padding: 0;
+  font-size: 13px;
+  color: var(--grey);
+}
+
+footer a {
+  color: var(--grey);
+}
+
+.Bottom-Last {
+  background-color: #fafbfc;
+  padding: 15px 0px;
+  font-size: 12px;
+}
+
+.Bottom-Last>div {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Bottom-Last ul {
+  display: flex;
+}
+
+.Bottom-Last ul p {
+  margin-right: 12px;
+}
+
+.Social img {
+  height: 25px;
+  filter: opacity(0.3);
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .Nav-link, .Search-input {
+    display: none;
+  }
+  .account-info a {
+    display: none;
+  }
+  .Github-Enterprise {
+    flex-direction: column;
+  }
+  .ghe-heading {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+  .Github-Enterprise p {
+    color: #586069;
+    width: 70%;
+    margin: auto;
+  }
+  .ghe-options {
+    margin-top: 25px;
+  }
+  .Collaboration {
+    flex-direction: column;
+  }
+  .collab-div {
+    width: 80%;
+  }
+  .Verification img {
+    height: 165px;
+  }
+  .Hosted {
+    width: 50%;
+  }
+  .Section-detail {
+    width: 100%;
+  }
+  .Ic img {
+    width: 50px;
+  }
+  .Integration-icons {
+    flex-wrap: wrap;
+  }
+  .Sub-Detail {
+    width: 100%;
+  }
+  .Developers {
+    margin-left: -40px;
+  }
+  .Repositories {
+    margin: 0;
+  }
+  .Get-started form {
+    display: block;
+    width: 80%;
+  }
+  .Get-started {
+    padding: 30px;
+  }
+  .Get-started form div {
+    margin-bottom: 30px;
+  }
+  .Get-started form div:nth-child(n+3) {
+    width: 50%;
+    margin: auto;
+  }
+  .Get-started button {
+    width: 100%;
+    margin-top: 30px;
+  }
+  footer>div>div:nth-child(2) {
+    display: flex;
+    margin-top: 30px;
+  }
+  footer>div:nth-child(1) {
+    flex-direction: column;
+  }
+  @media only screen and (min-width: 1024px) {
+    .Collaboration {
+      flex-direction: column;
+    }
+    .collab-div {
+      width: 80%;
+      margin: auto;
+    }
+  }
+}
