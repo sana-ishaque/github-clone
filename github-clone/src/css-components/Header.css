@@ -1,0 +1,56 @@
+
+.App-header {
+    background-color: var(--header-bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--header-color);
+    height: 70px;
+    padding: 10px 0px;
+    font-size: 15px;
+}
+
+.Nav-bar {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.Nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--header-color);
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.Nav-link img {
+    height: 12px;
+    width: 100%;
+    max-width: 12px;
+    margin-left: 5px;
+    filter: grayscale(1);
+}
+
+.Nav-link:hover, .ai:hover {
+    color: var(--nav-hover);
+}
+
+.github-logo {
+    height: 31px;
+    margin-right: 20px;
+}
+
+.Search-input {
+    background-color: #3f4448;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    width: 180px;
+}
+
+.ai {
+    margin-left: 20px;
+}

@@ -1,5 +1,4 @@
-// import React from 'react';
-import logo from './images/logo.png';
+import React from 'react';
 import GithubActions from './images/img-01.PNG';
 import airbnb from './images/corporate-icons/airbnb-logo.png';
 import sap from './images/corporate-icons/sap-logo.png';
@@ -22,99 +21,28 @@ import instagram from './images/social-media/instagram.svg';
 import github from './images/social-media/github.svg';
 import Button from 'react-bootstrap/Button';
 import cloud from './images/cloud.svg';
-import server from './images/server.svg';
-import support from './images/support.svg';
+
+
 import playbtn from './images/play-button.svg';
-import arrow from './images/arrow.svg';
-
-
+import Header from './components/Header';
+import GitHubMain from './components/GitHubMain';
 
 
 
 
 import abc from './images/simple-codelines.svg';
 import './App.css';
+import GitHUbEnterprise from './components/GitHUbEnterprise';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <div className="Nav-bar">
-          <img className="github-logo" src={logo} alt="Logo" />
-          <a className="Nav-link" href="#">
-            <p>Why Github? </p><img src={arrow}></img>
-          </a>
-          <a className="Nav-link" href="#">
-            <p>Enterprise</p>
-          </a>
-          <a className="Nav-link" href="#">
-            <p>Explore </p>
-            <img src={arrow}></img>
-          </a>
-          <a className="Nav-link" href="#">
-            <p>Marketplace </p>
-          </a>
-          <a className="Nav-link" href="#">
-            <p>Pricing </p>
-            <img src={arrow}></img>
-          </a>
-        </div>
-        <div className="account-info">
-          <input className="Search-input " placeholder="Search GitHub"></input>
-          <a className="ai">Sign in</a>
-          <button className="Sign-up ai">Sign up</button>
-        </div>
-      </header>
+      <Header />
+      <GitHubMain />
+      <GitHUbEnterprise/>
       <main>
-        <section className="Gihub-main">
-          <div>
-            <div className="Github-about">
-              <h1>Built for developers</h1>
-              <p>Github is a development platform inspired by the way you work. From <a href="https://github.com/open-source">open source</a> to <a href="https://github.com/enterprise">business</a>, you can host and review code, manage projects, and build software alongside 40 million developers.</p>
-            </div>
 
-            <div className="Github-signin">
-              <form>
-                <label for="User-name">Username</label>
-                <input className="form" id="User-name" type="text"></input>
-                <label for="password">Email</label>
-                <input className="form" id="password" type="email"></input>
-                <label for="password">Password</label>
-                <input className="form" id="password" type="password"></input>
-                <p>Make sure it's <span>at least 15 characters</span> OR at least 8 characters including a number and a lowercase letter.<a href="https://help.github.com/en/articles/creating-a-strong-password">Learn more</a>.</p>
-                <button className="signup-btn"> Sign up for Github </button>
-                <p > By clicking “Sign up for GitHub”, you agree to our <a href="https://help.github.com/en/articles/github-terms-of-service"> Terms of Service</a> and <a href="https://help.github.com/en/articles/github-privacy-statement">Privacy Statement</a>. We’ll occasionally send you account related emails.</p>
-              </form>
-            </div>
-          </div>
-        </section>
-        <section className="Github-Enterprise">
-          <div className="ghe-heading">
-            <h2>Get started with GitHub Enterprise</h2>
-            <p>Take collaboration to the next level with security and administrative features built for teams.</p>
-          </div>
-          <div className="ghe-options">
-            <div className="ghe-getstarted">
-              <img src={cloud}></img>
-              <h6>Enterprise Cloud</h6>
-              <p>Leave the hosting to us.</p>
-              <Button className="getstarted-btn" variant="primary">Try Cloud for free</Button>
-            </div>
-            <div className="ghe-getstarted">
-              <img src={server}></img>
-              <h6>Enterprise Server</h6>
-              <p>Deploy to your environment.</p>
-              <Button className="getstarted-btn" variant="primary">Try Server for free</Button>
-            </div>
-            <div className="ghe-getstarted">
-              <img src={support}></img>
-              <h6>Talk to us</h6>
-              <p>Want to use both?</p>
-              <Button className="getstarted-btn" variant="outline-primary">Contact Sales →</Button>
 
-            </div>
-          </div>
-        </section>
         <div className="Github-actions">
           <img src={GithubActions}></img>
         </div>

@@ -19,121 +19,9 @@ p {
   margin: 0;
 }
 
-.App-header {
-  background-color: var(--header-bg-color);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: var(--header-color);
-  height: 70px;
-  padding: 10px 0px;
-  font-size: 15px;
-}
 
-.Nav-bar {
-  display: flex;
-  align-items: center;
-  margin-left: 50px;
-}
 
-.Nav-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: var(--header-color);
-  margin-right: 20px;
-  text-decoration: none;
-}
 
-.Nav-link img {
-  height: 12px;
-  width: 100%;
-  max-width: 12px;
-  margin-left: 5px;
-  filter: grayscale(1);
-}
-
-.Nav-link:hover, .ai:hover {
-  color: var(--nav-hover);
-}
-
-.github-logo {
-  height: 31px;
-  margin-right: 20px;
-}
-
-.Search-input {
-  background-color: #3f4448;
-  outline: none;
-  border: none;
-  padding: 10px;
-  border-radius: 4px;
-  width: 180px;
-}
-
-.ai {
-  margin-left: 20px;
-}
-
-.account-info {
-  margin-right: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.Github-signin {
-  background-color: #fafbfc;
-  border-radius: 6px;
-  width: 50%;
-  padding: 30px;
-}
-
-.Sign-up {
-  background-color: transparent;
-  border: 1px solid var(--header-color);
-  padding: 7px 10px;
-  color: var(--header-color);
-  border-radius: 4px;
-  font-size: 16px;
-}
-
-form label, input {
-  display: block;
-}
-
-.form {
-  width: 100%;
-  height: 40px;
-  border-radius: 5px;
-  border: 1px solid lightgray;
-  padding: .375rem .75rem;
-}
-
-form p {
-  font-size: 11px;
-}
-
-form span:nth-child(1) {
-  color: green;
-}
-
-label {
-  margin-bottom: 2px;
-  font-weight: 600;
-  font-size: 13px;
-}
-
-.signup-btn {
-  width: 100%;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  background-color: #2ebc4f;
-  border-color: #2ebc4f;
-  padding: 20px 32px;
-  margin: 25px 0px;
-}
 
 /* main started */
 
@@ -153,17 +41,7 @@ section {
   color: var(--grey);
 }
 
-.ghe-getstarted p {
-  font-size: 14px;
-}
 
-.ghe-getstarted {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-right: 20px;
-}
 
 .getstarted-btn {
   margin-top: 20px;
@@ -174,20 +52,7 @@ section {
   margin-bottom: 0px;
 }
 
-.ghe-heading {
-  width: 25%;
-  text-align: start;
-  margin-right: 5em;
-}
 
-.ghe-options {
-  display: flex;
-}
-
-.ghe-getstarted img {
-  width: 100%;
-  max-width: 60px;
-}
 
 .Gihub-main {
   display: flex;
@@ -229,23 +94,7 @@ section {
   color: #aaadaf;
 }
 
-.Github-Enterprise {
-  display: flex;
-  width: 90%;
-  margin: 80px auto;
-  justify-content: space-evenly;
-  align-items: center;
-  box-shadow: 1px 1px 14px #80808045;
-  padding: 60px 0px;
-}
 
-.Github-Enterprise h2 {
-  font-weight: 600;
-}
-
-.Github-Enterprise p {
-  color: #586069;
-}
 
 .Github-actions {
   width: 80%;
