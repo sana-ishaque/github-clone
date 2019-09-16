@@ -1,6 +1,7 @@
 import React from 'react';
 import playbtn from '../images/play-button.svg';
 import '../css-components/Infographics.css';
+import InfographicTemplete from './InfographicTemplete';
 
 function Infographics() {
     return (
@@ -28,18 +29,10 @@ function Infographics() {
                     </div>
                 </div>
                 <div className="Github-details">
-                    <a href="https://github.com/open-source">
-                        <p>GitHub's users create and maintain influential technologies alongside the world's largest <span>open source community.</span></p>
-                        <img src={playbtn}></img>
-                    </a>
-                    <a href="https://github.com/personal">
-                        <p><span>Developers</span> use GitHub for personal projects, from experimenting with new programming languages to hosting their life's work.</p>
-                        <img src={playbtn}></img>
-                    </a>
-                    <a href="https://github.com/personal">
-                        <p><span>Business</span> of all sizes use GitHub to support their development process and Securely build software.</p>
-                        <img src={playbtn}></img>
-                    </a>
+                    <InfographicTemplete/>
+                    <InfographicTemplete/>
+                    <InfographicTemplete/>
+
                     <span>*As of April 2019</span>
 
                 </div>

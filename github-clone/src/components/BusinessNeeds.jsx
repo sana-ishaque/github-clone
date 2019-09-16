@@ -3,6 +3,7 @@ import cloud from '../images/cloud.svg';
 import varified from '../images/img-03.PNG';
 import Button from 'react-bootstrap/Button';
 import '../css-components/BusinessNeeds.css';
+import Verification from './Verification';
 
 
 function BusinessNeeds() {
@@ -17,14 +18,14 @@ function BusinessNeeds() {
             <div className="Verification">
                 <img src={varified}></img>
                 <div>
-                    <div className="verification-div">
-                        <h5>Code security</h5>
-                        <p>Prevent problems before they happen. Protected branches, signed commits, and required status checks protect your work and help you maintain a high standard for your code</p>
-                    </div>
-                    <div className="verification-div">
-                        <h5>Access controlled</h5>
-                        <p>Encourage teams to work together while limiting access to those who need it with granular permissions and authentication through SAML/SSO and LDAP.</p>
-                    </div>
+                    <Verification
+                        heading="Code security  "
+                        paraText="Prevent problems before they happen. Protected branches, signed commits, and required status checks protect your work and help you maintain a high standard for your code."
+                    />
+                    <Verification
+                        heading="Access controlled"
+                        paraText="Encourage teams to work together while limiting access to those who need it with granular permissions and authentication through SAML/SSO and LDAP."
+                    />
                 </div>
             </div>
 

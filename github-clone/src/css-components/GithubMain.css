@@ -31,6 +31,7 @@ form label, input {
     border-radius: 5px;
     border: 1px solid lightgray;
     padding: .375rem .75rem;
+    margin-bottom: 20px;
 }
 
 form p {

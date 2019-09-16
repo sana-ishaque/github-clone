@@ -2,7 +2,10 @@
     text-align: center;
     margin: 40px auto;
 }
-
+.Leading-co-git-ent>div{
+    display: flex;
+    justify-content: center;
+}
 .Leading-co-git-ent>h4 {
     color: var(--grey);
     font-size: 20px;
